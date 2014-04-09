@@ -9,4 +9,4 @@ var cartonResult = cartonCost * carton;
 var weekResult = packResult + cartonResult;
 var weeksInYear = 52;
 var result = weeksInYear * weekResult;
-console.log(result);
+alert("You spend approximately " + result + " dollars every year on cigarettes!");
