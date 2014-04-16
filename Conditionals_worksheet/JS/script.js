@@ -22,14 +22,24 @@ if(milesToGo < 200){
 }
 // Check The Login // 
 var usernameEntered = "LindsayLambo";
+// the variable usernameEntered is set to the string value "LindsayLambo" //
 var passwordEntered = "WrongPassword";
+// the passwordEntered variable is set to the string value "WrongPassword" //
 var correctUsername = "LindsayLambo";
+// this variable is set as the correct username, which is "LindsayLambo" //
 var correctPassword = "MyPassword";
+// correctPassword is a variable being set to another string value of "MyPassword" //
 if(usernameEntered === correctUsername && passwordEntered === correctPassword){
+	// this if statement uses the AND operator to enable us to compare two sets of variables at once.  This conditional statement is stating that if the entered and correct passwords match, along with the entered and correct usernames matching... //
 	console.log("Welcome, " + usernameEntered + "!");
+	// this action will be performed if the above condition is true; it will print the string and variable combination to the console. //
 }else if(usernameEntered === correctUsername && correctPassword != passwordEntered){
+	// this else if condition allows us to compare two sets of variables once again, but with the usernames matching while the passwords do not. //
 	console.log("Password does not match our records.");
+	// this action prints the above string to the console if this condition is true. //
 }else{
+	// the only other option is for the password not to match, with or without matching usernames, so it will determine whether or not to perform the action below. //
 	console.log("User not found. Try again.");
+	// this action prints to the console the above string if the other two conditions have been false, leaving this one to be true. //
 }
 // 
