@@ -44,11 +44,19 @@ if(usernameEntered === correctUsername && passwordEntered === correctPassword){
 }
 // Movie Ticket Price //
 var movieTime = 4;
+// the movieTime variable is set at 4 //
 var customerAge = 37;
+// the variable customerAge is set to 37 //
 if(movieTime < 6 && movieTime > 2){
+	// the if statement is using an AND operator to compare two sets of values at once, determining whether the movie time allows a discount //
 	console.log("The ticket price is $7.00.");
+	// the string will be printed to the console if the condition is true //
 }else if(customerAge > 55 && customerAge < 10){
+	// this else if statement will compare two sets of variables using the AND operator again, deciding whether to allow for a discount based upon the age of the customer. //
 	console.log("The ticket price is $7.00.");
+	// this action prints the string above to the console with a result of true for the condition //
 }else{
+	// this else clause allows for other conditions to be true so that if there are no discounts, the ticket will be full price. //
 	console.log("The ticket price is $12.00.");
+	// this prints to the console the price of the ticket with no discount if the condition is found to be true. //
 }
