@@ -42,4 +42,13 @@ if(usernameEntered === correctUsername && passwordEntered === correctPassword){
 	console.log("User not found. Try again.");
 	// this action prints to the console the above string if the other two conditions have been false, leaving this one to be true. //
 }
-// 
+// Movie Ticket Price //
+var movieTime = 4;
+var customerAge = 37;
+if(movieTime < 6 && movieTime > 2){
+	console.log("The ticket price is $7.00.");
+}else if(customerAge > 55 && customerAge < 10){
+	console.log("The ticket price is $7.00.");
+}else{
+	console.log("The ticket price is $12.00.");
+}
