@@ -2,7 +2,7 @@
 // Last Chance For Gas! //
 
 var mpg = 20;
-var percentInTank = 50%;
+var percentInTank = .5;
 var tankCapacity = 22;
 var gallonsInTank = tankCapacity * percentInTank;
 var milesToGo = gallonsInTank * mpg;
