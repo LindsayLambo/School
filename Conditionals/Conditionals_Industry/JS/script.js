@@ -18,6 +18,20 @@ var pricePerMonth = monthlyNumInk * priceOfInk;
 // this calculation sets the variable pricePerMonth to the result of the calculation of the monthly amount of cartridges purchases multiplied by the price. //
 var totalPriceYear = eachYear * pricePerMonth;
 // the totalPriceYear variable  is set to the result of the calculation finding out the monthly price multiplied by the 12 months in a year. //
+if(buyPerMonth === ""){
+	// this is the if statement for validation-it checks to see if the user left a box empty, like the empty string in the condition. //
+	buyPerMonth = prompt("You forgot to input something! How many times to you buy ink each month?");
+	// this prompt lets the user know they forgot to answer the question //
+}else{
+	
+}
+if(numOfCartridges === ""){
+	// this if statement is also checking for validation to make sure the user has entered the value //
+	numOfCartridges = prompt("You forgot to input something! How many cartridges do you purchase each month?");
+	// this prompt will let the user know they forgot to enter the answer to the question. //
+}else{
+	
+}
 if(totalPriceYear > 1750){
 	// this if statement decides ultimately if the user is paying too much for ink each year //
 	console.log("You're paying way too much for ink each year!");
