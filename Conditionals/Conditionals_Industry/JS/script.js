@@ -1,5 +1,5 @@
 // Lindsay Lambert April 17, 2014 Conditionals Industry//
-// Ink For the Printer //
+// Ink For the Printer-Are you paying too much? //
 var priceOfInk = 29;
 // the variable priceOfInk is assigned a value of 29 //
 var eachYear= 12;
@@ -22,6 +22,7 @@ if(buyPerMonth === ""){
 	// this is the if statement for validation-it checks to see if the user left a box empty, like the empty string in the condition. //
 	buyPerMonth = prompt("You forgot to input something! How many times to you buy ink each month?");
 	// this prompt lets the user know they forgot to answer the question //
+	console.log("Each month, they go " + buyPerMonth + " times to buy ink for the company.");
 }else{
 	
 }
@@ -29,6 +30,7 @@ if(numOfCartridges === ""){
 	// this if statement is also checking for validation to make sure the user has entered the value //
 	numOfCartridges = prompt("You forgot to input something! How many cartridges do you purchase each month?");
 	// this prompt will let the user know they forgot to enter the answer to the question. //
+	console.log("Every trip to the supplier, " + numOfCartridges + " cartridges are purchased for the company.");
 }else{
 	
 }
@@ -36,8 +38,10 @@ if(totalPriceYear > 1750){
 	// this if statement decides ultimately if the user is paying too much for ink each year //
 	console.log("You're paying way too much for ink each year!");
 	// this action prints the string variable above to the console, based on the decision. //
+	alert("You're paying way too much for ink each year!");
 }else{
 	// this is just a little else that will not be performing much of anything except printing to the console, as seen below, if the condition is true. //
-	console.log("That is a pretty reasonable price per year for a business of your size.");
+	console.log("That is a pretty reasonable price per year for a business of your size to pay for ink.");
 	// print string variable to console if condition is true //
+	alert("That is a pretty reasonable price per year for a business of your size to pay for ink.");
 }		
