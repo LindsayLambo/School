@@ -8,3 +8,10 @@ function bulletsFlying(numberGuns, boxesAmmo, skillLevel){
 	var zombiesKilled = skillLevel + (numberGuns * boxesAmmo);
 	return zombiesKilled;
 }
+if(zombiesKilled > 100){
+	console.log("You're on my squad!");
+}else{
+	console.log("You're going to have to stock up on weapons and train with us to be part of the crew.");
+}
+	
+
