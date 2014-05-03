@@ -7,6 +7,5 @@ var zombiesKilled = bulletsFlying(numberGuns, boxesAmmo, skillLevel);
 function bulletsFlying(numberGuns, boxesAmmo, skillLevel){
 	var zombiesKilled = numberGuns * (boxesAmmo * skillLevel);
 	return zombiesKilled;
+	console.log("The number of zombies you can kill is " + zombiesKilled + ", so come check out my compound when the time comes. I might need you!");
 }
-console.log("The number of zombies you can kill is " + zombiesKilled + ", so come check out my compound when the time comes. I might need you!");
-alert("The number of zombies you can kill is " + zombiesKilled + ", so come check out my compound when the time comes. I might need you!");")
